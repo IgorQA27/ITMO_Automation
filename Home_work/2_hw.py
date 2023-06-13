@@ -7,10 +7,9 @@ def task_1()->None:
 print(type(a), type(b), type(c), type(d), type(e))
 
 
-print(task_1())
-
-
-
-def task_2():
+def task_2()->None:
     a = [1, 2, 3, 5, 8, 13, 21]
-print("a[0:3]" )
+    print("a[0:3]", a[0:3])
+
+def task_3():
+    return a ** 2

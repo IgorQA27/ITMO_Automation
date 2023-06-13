@@ -1,15 +1,79 @@
-class rectangle:
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
+class rectangle():
+    def __init__(self, weight, length):
+        self.weight = weight
+        self.length = length
 
     def area(self):
-        return self.width * self.height
+        return self.weight * self.length
 
-    a = int(input("Введите длину прямоугольника: "))
-    b = int(input("Введите ширину прямоугольника: "))
-    obj = rectangle(a, b)
-    print("Площадь прямоугольника:", obj.area())
 
+a = int(input("Введите длину прямоугольника: "))
+b = int(input("Введите ширину прямоугольника: "))
+obj = rectangle(a, b)
+print("Площадь прямоугольника:", obj.area())
+
+print()
+
+
+
+class Math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def addition(self):
+        return self.a + self.b
+
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+obj = Math(a, b)
+
+print("Результат сложения:", obj.addition())
+
+print()
+
+class Math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def multiplication(self):
+        return self.a * self.b
+
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+obj = Math(a, b)
+
+print("Результат умножения:", obj.multiplication())
+
+
+class Math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def division(self):
+        return self.a / self.b
+
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+obj = Math(a, b)
+
+print("Результат деления:", obj.division())
+
+
+class Math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def subtraction(self):
+        return self.a - self.b
+
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+obj = Math(a, b)
+
+print("Результат вычитания:", obj.subtraction())
 
 

@@ -40,25 +40,42 @@ class Math:
 a = int(input("Введите первое число: "))
 b = int(input("Введите второе число: "))
 obj = Math(a, b)
+print("Результат сложения:", obj.addition())
+print()
 
-print("Результат сложения:", obj.subtraction())
+
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+obj = Math(a, b)
+print("Результат деления:", obj.multiplication())
+
+
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+obj = Math(a, b)
+print("Результат умножения:", obj.division())
+print()
+
 
 a = int(input("Введите первое число: "))
 b = int(input("Введите второе число: "))
 obj = Math(a, b)
 
-print("Результат умножения:", obj.subtraction())
+print("Результат вычитания:", obj.substraction())
+print()
 
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-obj = Math(a, b)
 
-print("Результат деления:", obj.subtraction())
 
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-obj = Math(a, b)
 
-print("Результат вычитания:", obj.subtraction())
+
+
+
+
+
+
+
+
+
+
 
 

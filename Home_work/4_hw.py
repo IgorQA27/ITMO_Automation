@@ -24,51 +24,36 @@ class Math:
     def addition(self):
         return self.a + self.b
 
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-obj = Math(a, b)
-
-print("Результат сложения:", obj.addition())
-
-print()
-
-class Math:
-    def __init__(self, a, b):
-        self.a = a
-        self.b = b
 
     def multiplication(self):
         return self.a * self.b
 
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-obj = Math(a, b)
-
-print("Результат умножения:", obj.multiplication())
-
-
-class Math:
-    def __init__(self, a, b):
-        self.a = a
-        self.b = b
 
     def division(self):
         return self.a / self.b
 
+
+    def subtraction(self):
+        return self.a - self.b
+
+
 a = int(input("Введите первое число: "))
 b = int(input("Введите второе число: "))
 obj = Math(a, b)
 
-print("Результат деления:", obj.division())
+print("Результат сложения:", obj.subtraction())
 
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+obj = Math(a, b)
 
-class Math:
-    def __init__(self, a, b):
-        self.a = a
-        self.b = b
+print("Результат умножения:", obj.subtraction())
 
-    def subtraction(self):
-        return self.a - self.b
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+obj = Math(a, b)
+
+print("Результат деления:", obj.subtraction())
 
 a = int(input("Введите первое число: "))
 b = int(input("Введите второе число: "))
